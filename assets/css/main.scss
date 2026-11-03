@@ -40,3 +40,15 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+// This site does not use the sidebar, so center the content
+#main .page,
+#main .archive {
+  float: none;
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
